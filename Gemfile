@@ -53,4 +53,7 @@ group :development do
   # For testing mails in dev mode
   gem "letter_opener"
 end
-
+group :production do
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem 'pg'
+end
