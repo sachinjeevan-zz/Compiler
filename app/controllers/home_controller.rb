@@ -1,4 +1,4 @@
-    class HomeController < ApplicationController
+   class HomeController < ApplicationController
  
   after_filter :del
  
