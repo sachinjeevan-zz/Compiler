@@ -55,5 +55,5 @@ gem 'sqlite3'
 end
 group :production do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'pg'
+  gem 'pg', '1.1.3'
 end
